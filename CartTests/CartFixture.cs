@@ -5,7 +5,7 @@ using System.Collections.Generic;
 
 namespace CartTests
 {
-    public class UnitTest1
+    public class CartFixture
     {
         [Fact]
         public void cart_total_cost_0_when_cart_empty()
@@ -72,14 +72,14 @@ namespace CartTests
             product.Name = "Book";
             product.Price = 143.89;
             int quantity = 1;
-            double discount = 40.0;
+            double discount = 20.0;
 
             CartItem cartItem = new CartItem(product, quantity,discount);
 
             Cart cart = new Cart();
             cart.Add(cartItem);
             
-            double expectedValue = 103.89;
+            double expectedValue = 115.11;
 
             Assert.Equal(expectedValue,Math.Round(cart.GetTotalCost(),2));
 
@@ -103,6 +103,24 @@ namespace CartTests
 
             Assert.Equal(expectedValue, Math.Round(cart.GetTotalCost(),2));
 
+        }
+
+        [Fact]
+        public void discounted_price_of_item_based_on_category_test()
+        {
+            Product product = new Product();
+            product.Name = "Book";
+            product.Price = 143.89;
+            int quantity = 1;
+            
+            CartItem cartItem = new CartItem(product, quantity, new DiscountFactory().GenerateDiscount("educational"));
+
+            Cart cart = new Cart();
+            cart.Add(cartItem);
+
+            double expectedValue = 115.11;
+
+            Assert.Equal(expectedValue, Math.Round(cart.GetTotalCost(), 2));
 
 
         }

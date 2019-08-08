@@ -27,7 +27,7 @@ namespace CartApp
             var totalCost = 0.0;
             foreach(var item in _cartItem)
             {
-                var discountedPrice = (item.Product.Price*item.Quantity) - item.Discount.Value;
+                var discountedPrice = (item.Product.Price*item.Quantity) - (item.Discount.Value/100 * item.Product.Price);
                 totalCost += discountedPrice;
             }
 
