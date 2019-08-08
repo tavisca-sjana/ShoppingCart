@@ -37,7 +37,7 @@ namespace CartTests
                 cartItem
             };
 
-            Assert.Equal(listOfExpectedItems, cart.ViewItems());
+            Assert.Equal(listOfExpectedItems, cart.GetItems());
 
 
         
@@ -59,7 +59,7 @@ namespace CartTests
             cart.Remove(cartItem);
             List<CartItem> listOfExpectedItems = new List<CartItem>();
             
-            Assert.Equal(listOfExpectedItems, cart.ViewItems());
+            Assert.Equal(listOfExpectedItems, cart.GetItems());
 
 
 
@@ -113,7 +113,7 @@ namespace CartTests
             product.Price = 143.89;
             int quantity = 1;
             
-            CartItem cartItem = new CartItem(product, quantity, new DiscountFactory().GenerateDiscount("educational"));
+            CartItem cartItem = new CartItem(product, quantity, new DiscountFactory().GetDiscount("educational"));
 
             Cart cart = new Cart();
             cart.Add(cartItem);

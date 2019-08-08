@@ -6,6 +6,11 @@ namespace CartApp
     {
         private List<CartItem> _cartItem = new List<CartItem>();
 
+        public Cart()
+        {
+            _cartItem = new List<CartItem>();
+        }
+
         public void Add(CartItem item)
         {
             _cartItem.Add(item);
@@ -16,7 +21,7 @@ namespace CartApp
             _cartItem.Remove(item);
         }
 
-        public List<CartItem> ViewItems()
+        public List<CartItem> GetItems()
         {
             return _cartItem;
         }
