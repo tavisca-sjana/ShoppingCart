@@ -1,0 +1,16 @@
+C:\Users\sjana\source\repos\CartApp\CartTests\bin\Debug\netcoreapp2.2\xunit.runner.visualstudio.dotnetcore.testadapter.dll
+C:\Users\sjana\source\repos\CartApp\CartTests\bin\Debug\netcoreapp2.2\xunit.runner.reporters.netcoreapp10.dll
+C:\Users\sjana\source\repos\CartApp\CartTests\bin\Debug\netcoreapp2.2\xunit.runner.utility.netcoreapp10.dll
+C:\Users\sjana\source\repos\CartApp\CartTests\bin\Debug\netcoreapp2.2\CartTests.deps.json
+C:\Users\sjana\source\repos\CartApp\CartTests\bin\Debug\netcoreapp2.2\CartTests.runtimeconfig.json
+C:\Users\sjana\source\repos\CartApp\CartTests\bin\Debug\netcoreapp2.2\CartTests.runtimeconfig.dev.json
+C:\Users\sjana\source\repos\CartApp\CartTests\bin\Debug\netcoreapp2.2\CartTests.dll
+C:\Users\sjana\source\repos\CartApp\CartTests\bin\Debug\netcoreapp2.2\CartTests.pdb
+C:\Users\sjana\source\repos\CartApp\CartTests\bin\Debug\netcoreapp2.2\CartApp.dll
+C:\Users\sjana\source\repos\CartApp\CartTests\bin\Debug\netcoreapp2.2\CartApp.pdb
+C:\Users\sjana\source\repos\CartApp\CartTests\obj\Debug\netcoreapp2.2\CartTests.csprojResolveAssemblyReference.cache
+C:\Users\sjana\source\repos\CartApp\CartTests\obj\Debug\netcoreapp2.2\CartTests.csproj.CoreCompileInputs.cache
+C:\Users\sjana\source\repos\CartApp\CartTests\obj\Debug\netcoreapp2.2\CartTests.AssemblyInfoInputs.cache
+C:\Users\sjana\source\repos\CartApp\CartTests\obj\Debug\netcoreapp2.2\CartTests.AssemblyInfo.cs
+C:\Users\sjana\source\repos\CartApp\CartTests\obj\Debug\netcoreapp2.2\CartTests.dll
+C:\Users\sjana\source\repos\CartApp\CartTests\obj\Debug\netcoreapp2.2\CartTests.pdb
