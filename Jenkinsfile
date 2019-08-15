@@ -19,7 +19,7 @@ pipeline
             steps
             {
                 echo "Building project"
-                bat 'dotnet build CartApp.sln --configuration Release"'
+                sh 'dotnet build CartApp.sln --configuration Release"'
                 echo "Build success"
             }
         }
@@ -28,7 +28,7 @@ pipeline
             steps
             {
                 echo "Running tests"
-                bat 'dotnet test CartApp.sln'
+                sh 'dotnet test CartApp.sln'
                 echo "Test success"
             }
         }
@@ -37,7 +37,7 @@ pipeline
             steps
             {
                 echo "Publishing project"
-                bat 'dotnet publish CartApp.sln'
+                sh 'dotnet publish CartApp.sln'
                 echo "Publish success"
             }
         }
