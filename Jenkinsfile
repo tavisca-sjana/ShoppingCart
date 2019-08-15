@@ -46,7 +46,7 @@ pipeline
             steps
             {
                 echo "Archiving"
-                archiveArtifacts 'CartApp\\bin\\Release\\netcoreapp2.2\\*'
+                archiveArtifacts 'CartApp/bin/Release/netcoreapp2.2/*'
                 echo "Archive Success"
 
             }
