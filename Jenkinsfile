@@ -19,7 +19,7 @@ pipeline
             steps
             {
                 echo "Building project"
-                sh 'dotnet build CartApp.sln --configuration Release"'
+                sh 'dotnet build CartApp.sln --configuration Release'
                 echo "Build success"
             }
         }
