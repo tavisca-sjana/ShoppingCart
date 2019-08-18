@@ -51,5 +51,14 @@ pipeline
 
             }
         }
+
+        stge('Show Details of Build')
+        {
+            steps
+            {
+                echo "\n Build Id is ${env.BUILD_ID}"
+                echo "\n Job Name is ${env.JOB_NAME}"
+            }
+        }
     }
 }
