@@ -52,7 +52,7 @@ pipeline
             }
         }
 
-        stge('Show Details of Build')
+        stage('Show Details of Build')
         {
             steps
             {
